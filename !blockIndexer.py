@@ -2,10 +2,10 @@ from random import randint
 import json
 
 # input("Enter hatheight/trunkheight: ")
-T = [24,26]
+T = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, 20, 22, 24, 26]
 N = 0
-trunkHeight = 16
-hatHeight = 13  # randint(4, 13)
+trunkHeight = 4
+hatHeight = 4  # randint(4, 13)
 while trunkHeight < 27:
     trunkHeight = T[N]
     offset = trunkHeight - hatHeight
